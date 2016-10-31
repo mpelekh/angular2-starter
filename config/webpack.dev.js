@@ -22,6 +22,7 @@ module.exports = webpackMerge(commonConfig, {
 
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
+    new webpack.NamedModulesPlugin(),
     new HtmlWebpackPlugin({
       template: '!!ejs!src/index.html',
       rootComponent: '<my-app>Loading...</my-app>'
