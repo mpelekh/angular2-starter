@@ -9,8 +9,10 @@ git clone https://github.com/nickpeleh/angular2-starter.git
 # change directory to repo
 cd angular2-starter
 
-# install the repo with npm or yarn
-npm install (yarn)
+# install the repo with npm
+npm install
+# or
+yarn
 
 # start the server
 npm start
